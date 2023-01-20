@@ -1,7 +1,7 @@
 public class Song
 {
-    string name;
-    string dir;
+    public string name;
+    public string dir;
 
     public Song(string name, string dir)
     {

@@ -34,7 +34,7 @@ namespace ImGuiDemo
                 controller.Update(dt);
 
                 Raylib.BeginDrawing();
-                Raylib.ClearBackground(new Color(40, 40, 40, 255));
+                Raylib.ClearBackground(new Color(86, 47, 168, 255));
                 app.Update();
                 controller.Draw();
                 app.LateUpdate();

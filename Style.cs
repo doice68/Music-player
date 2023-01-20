@@ -8,7 +8,7 @@ public static void SetupImGuiStyle()
 	// v style from ImThemes
 	var style = ImGuiNET.ImGui.GetStyle();
 	
-	style.Alpha = 1.0f;
+	style.Alpha = 1f;
 	style.DisabledAlpha = 0.300000011920929f;
 	style.WindowPadding = new Vector2(7.199999809265137f, 8.0f);
 	style.WindowRounding = 12f;
